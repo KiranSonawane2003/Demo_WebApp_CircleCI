@@ -252,7 +252,7 @@ jobs:
 
   test-client:
     <<: *defaults
-    parallelism: 6
+    parallelism: 4
     steps:
       - prepare
       - restore_cache: *restore-jest-cache
